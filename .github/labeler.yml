@@ -1,0 +1,3 @@
+pr-ui: packages/ui/**/*
+pr-contracts: packages/contracts/**/*
+pr-backend: packages/backend/**/*
