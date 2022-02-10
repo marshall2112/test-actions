@@ -6,8 +6,9 @@
 # https://github.com/actions/labeler
 
 name: Labeler
-pull_request:
-  types: [opened, synchronize]
+on:
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   label:
