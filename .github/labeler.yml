@@ -1,3 +1,6 @@
-dapp: packages/dapp/**/*
-protocol: packages/protocol/**/*
-backend: packages/api/**/*
+pr-ui:
+  - packages/ui/**/*
+pr-contracts:
+  - packages/contracts/**/*
+pr-backend:
+  - packages/backend/**/*
